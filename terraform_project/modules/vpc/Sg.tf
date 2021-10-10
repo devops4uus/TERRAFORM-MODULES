@@ -1,3 +1,6 @@
+data "http" "myip" {
+  url = "http://ipv4.icanhazip.com"
+}
 resource "aws_security_group" "test" {
   
 #   name          = "sg"

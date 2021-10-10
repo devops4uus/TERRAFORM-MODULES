@@ -55,3 +55,4 @@ resource "aws_instance" "instance" {
     "Name"                = "${var.owner}-instance"
     "KeepInstanceRunning" = "false"
   }
+}
